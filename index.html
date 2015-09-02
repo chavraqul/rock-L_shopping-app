@@ -2,16 +2,65 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Rock-L Shopper</title>
+	<title>Rock-L Candy Shop</title>
 	<!-- Styles -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/custom.css">
+	<link href='http://fonts.googleapis.com/css?family=Baumans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	
+		<header class="master-head">
+			<p>Rock-L Candy Shop</p>
+		</header>
+		
+		<div class="content">
+			<div class="intro">
+			<p>Checked a candy from the list and enter quantiy.</p>
+			<p>Then click on add button to it to view your shopping list details.</p>
+			<a href="shopping-list.html">View shopping list</a>
+			</div>
+		</div>
 
+		<div class="content">
+			<form action="shopping-list.html">
+			<ul class="candies">
+				<li><img src="images/chocolate.jpeg"alt="chocolate">
+					<input type="checkbox" id="candy-chocolate">
+					<input type="number" id="qty-chocolate" value="0">
+					<p>Chocolate $2.99</p></li>
+				<li><img src="images/lollipops.jpg" alt="lollipops">
+					<input type="checkbox" id="candy-lollipops">
+					<input type="number" id="qty-lollipops" value="0">
+					<p>Lollipops $1.99</p></li>
+				<li><img src="images/toffee.jpg" alt="toffee">
+					<input type="checkbox" id="candy-toffee">
+					<input type="number" id="qty-toffee" value="0">
+					<p>Toffee $1.99</p></li>
+				<li><img src="images/Watermelon_tangy_Taffy.jpg" alt="laffy-taffy">
+					<input type="checkbox" id="candy-laffy-taffy">
+					<input type="number" id="qty-laffy-taffy" value="0">
+					<p>Laffy Taffy $0.99</p></li>
+			</ul>
+			<div class="content">
+			<input type="submit" id="cool-button" value="Add Candy">
+			</form>
+			</div>
+		</div>
 
+		<div class="footer">
+		
+		<hr></hr>
+
+		<footer>
+			
+			<p>Rock-L Candy Shop 2015 &copy;</p>
+
+		</footer>
+		</div>
+		
 	<!-- Javascripts -->
-	<script src="js/"></script>
+	<script src="js/shopping_app.js"></script>
 </body>
 </html>

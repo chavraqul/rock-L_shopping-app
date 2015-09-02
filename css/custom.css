@@ -1,0 +1,174 @@
+/****************
+Date: Aug. 28, 2015
+Author: Raquel Chavez
+My custom css
+******************/
+
+/*force margin and padding to cut into the width and height of an area rather than expanding it.*/
+html {
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*drawing div containers
+div{
+  border: 1px solid Chocolate;
+  
+}
+*/
+.master-head{
+	height: 10em;
+	background-image: url("../images/candies.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: Black;
+	font-weight: bold;
+	font-family: 'Baumans', sans-serif;
+	font-size: 2.5em;
+	letter-spacing: 1em;
+	padding-top: 3em;
+	
+	}
+
+.content{
+	margin: 0 auto;
+	width: 50%;
+	
+}
+
+.intro{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin-bottom: 6em;
+	margin-top: 3em;
+}
+
+.candies{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	list-style: none;
+}
+
+.candies li{
+	display: inline-block;
+	margin-right: 1.5em;
+}
+
+#qty-chocolate, #qty-lollipops,
+#qty-toffee, #qty-laffy-taffy{
+	width: 3em;
+	height: 2em;
+}
+/***FIRST STYLE THE BUTTON***/
+input#cool-button{
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding:5px 25px; /*add some padding to the inside of the button*/
+background:#6600FF; /*the colour of the button*/
+border:1px solid #33842a; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+/*style the text*/
+color:#f3f3f3;
+font-size:1.1em;
+vertical-align: center;
+margin-left: 10em;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+input#cool-button:hover, input#cool-button:focus{
+background-color :#9966FF; /*make the background a little darker*/
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+.center{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+}
+.cool-title, .cool{
+	list-style-type: none;
+	font-family: 'Baumans', sans-serif;
+}
+
+.cool-title li{
+  display: inline-block;
+  color: #838994;
+  font-size: 1.1em;
+  margin-top: 1.6rem;
+  margin-bottom: 0;
+  text-decoration: underline;
+  letter-spacing: 0.03em;
+  padding-right: 3.5em;
+}
+
+.cool li{
+  	display: inline-block;
+	margin-right: 3em;
+	width: 5em;
+}
+
+.price{
+	padding-left: 2em;
+}
+	
+.total{
+	padding-left: 2em;
+}
+
+.cool-title li:first-child{
+	padding-right: 3.3em;
+}
+
+.cool li:first-child{
+	margin-right:1.5em;	
+}
+/*Style Delete button*/
+.candy-del{
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	padding:5px 10px; /*add some padding to the inside of the button*/
+	background:#FF3300; /*the colour of the button*/
+	border:1px solid #33842a; /*required or the default border for the browser will appear*/
+	/*give the button curved corners, alter the size as required*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/*give the button a drop shadow*/
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+	/*style the text*/
+	color:#f3f3f3;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+.candy-del:hover, .candy-del:focus{
+background-color :#993300; /*make the background a little darker*/
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+.footer{
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+	margin-top: 6em;
+}
+.footer p{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
