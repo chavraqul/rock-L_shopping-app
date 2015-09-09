@@ -32,8 +32,7 @@ div{
 	font-size: 2.5em;
 	letter-spacing: 1em;
 	padding-top: 3em;
-	
-	}
+}
 
 .content{
 	margin: 0 auto;
@@ -105,6 +104,15 @@ box-shadow: 0 0 1px rgba(0,0,0, .75);
 	font-family: 'Baumans', sans-serif;
 }
 
+.cool{
+	margin: 0;
+	padding: 0;
+}
+
+.cool li {
+	margin-bottom: 1em;
+}
+
 .cool-title li{
   display: inline-block;
   color: #838994;
@@ -116,7 +124,7 @@ box-shadow: 0 0 1px rgba(0,0,0, .75);
   padding-right: 3.5em;
 }
 
-.cool li{
+.cool-second li{
   	display: inline-block;
 	margin-right: 3em;
 	width: 5em;
@@ -134,7 +142,7 @@ box-shadow: 0 0 1px rgba(0,0,0, .75);
 	padding-right: 3.3em;
 }
 
-.cool li:first-child{
+.cool-second li:first-child{
 	margin-right:1.5em;	
 }
 /*Style Delete button*/
